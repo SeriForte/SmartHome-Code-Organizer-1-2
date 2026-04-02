@@ -186,7 +186,12 @@ class _SettingsScreenState extends ConsumerState<SettingsScreen> {
                           'Die Nutzungsbedingungen (Terms of Use) und die Datenschutzrichtline (Privacy Policy) sind im Settings-Menu verlinkt.');
                 },
                 child: const Text('rechtliches & Lizenzen'),
-              )
+              ),
+
+              const Text(
+                'last edit 2026:  Change min SKD Version to 24 & Color Change of App',
+                style: TextStyle(fontWeight: FontWeight.bold),
+              ),
             ],
           ),
         ),

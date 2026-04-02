@@ -28,6 +28,15 @@ class App extends StatelessWidget {
     return MaterialApp(
       title: 'Smart Home Code Organizer',
       debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        // Define the default brightness and colors.
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: Colors.green,
+          // ···
+          // brightness: Brightness.dark,
+        ),
+
+      ),
 
     
       routes: {
